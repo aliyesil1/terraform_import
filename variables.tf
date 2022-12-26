@@ -3,5 +3,5 @@ variable "rg_name" {
   type = string
 }
 variable "rg_location" {
- default =  "West US" 
+ default =  "East US" 
 }
