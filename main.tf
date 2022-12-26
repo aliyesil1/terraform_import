@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "api_rg" {
     name = var.rg_name
-    location = "East Us"
+    location = var.rg_location
   
 }
