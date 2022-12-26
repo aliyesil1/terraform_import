@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "terraform_import_rg" {
-    name = "terraform_import_rgali"
+resource "azurerm_resource_group" "api_rg" {
+    name = var.rg_name
     location = "East Us"
   
 }
